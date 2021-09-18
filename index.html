@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Client</title>
+
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 3px 0 3px 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        body {
+            background: linear-gradient(135deg, rgb(9, 229, 236), green);
+        }
+
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 45%;
+            background: rgb(236, 241, 241);
+            border-radius: 4%;
+
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 80%;
+        }
+
+        .input-box {
+
+            display: inline-block;
+            width: 35%;
+            vertical-align: top;
+           
+        }
+
+       
+
+        .container1 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            background: rgb(238, 241, 237);
+
+        }
+
+        .title {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .submit {
+            width: 30%;
+            height: 40px;
+            background: rgb(173, 232, 236);
+            border-radius: 10%;
+
+        }
+
+        textarea {
+            width: 97%;
+            height: 50px;
+        }
+
+       
+        .col_2 {
+
+            display: inline-block;
+            width: 60%;
+            margin: 0px;
+           
+        }
+        .col_2 input  {
+            height: 30px ;
+            width: 97%;
+        }
+    </style>
+
+    <div class="container">
+        <div class="container1">
+            <form>
+                <div class="title">
+                    Create Client
+                </div>
+                <div>
+
+                    <div>
+                        <label class="input-box">Full Name</label>
+                        <div class="col_2">
+                            <input style="width: 30%; display: inline;" type="text" name="FirstName"
+                                placeholder="First Name" required>
+                            <input style="width: 30%; display: inline;" type="text" name="MiddleName"
+                                placeholder="Middle Name" >
+                            <input style="width: 30%;display: inline;" type="text" name="FirstName"
+                                placeholder="Last Name" >
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <label class="input-box">Company Name</label>
+                        <div class="col_2">
+                            <input type="text" name="CompanyName" placeholder="Enter your Company name" required>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="input-box">Email</label>
+                        <div class="col_2">
+                            <input type="email" name="Email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="input-box">Phone No.</label>
+                    <div class="col_2">
+                        <input type="number" name="PhoneNo" required>
+                    </div>
+                </div>
+                <div>
+                    <label class="input-box">Whatsapp No.</label>
+                    <div class="col_2">
+                        <input type="number" name="WhatsappNo" required>
+                    </div>
+                </div>
+                <div>
+                    <label class="input-box">Telegram No.</label>
+                    <div class="col_2">
+                        <input type="number" name="TelegramNo">
+                    </div>
+                </div>
+                <div>
+                    <label class="input-box">Tax ID</label>
+                    <div class="col_2">
+                        <input type="text" name="TaxID" required>
+                    </div>
+                </div>
+                <div>
+                    <label class="input-box">Address</label>
+                    <div class="col_2">
+                        <textarea type="text" name="Address"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <label class="input-box">City</label>
+                    <div class="col_2">
+                        <input type="text" name="city" required>
+                    </div>
+                </div>
+                <div>
+                    <label class="input-box">State</label>
+                    <div class="col_2">
+                        <input type="text" name="state" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="input-box">Zipcode</label>
+                    <div class="col_2">
+                        <input type="number" name="Zipcode" required>
+                    </div>
+                </div>
+        </div>
+
+        <div>
+            <center>
+                <input class="submit" type="submit" name="Submit" value="Submit" class="submit">
+            </center>
+        </div>
+
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>
