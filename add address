@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Address</title>
+   
+</head>
+<body>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px 0 5px  0px;
+            box-sizing: border-box;
+        }
+        body{
+            
+            background: linear-gradient(135deg, rgb(9, 229, 236), green);
+        }
+        .row{
+            display: inline-block;
+            width: 30%;
+        }
+        .container{
+        
+            background-color: rgba(227, 229, 233, 0.212);
+           
+            background:rgb(240, 234, 234);
+            border-radius: 3%;
+           
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+           
+            
+        }
+        .container01 {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 130px;
+           
+            width: 500px;
+            
+           
+        }
+        .input-box{
+          width: 330px;
+          height: 30px;
+          display: inline-block;
+            width: 65%;
+        
+        }
+        input, textarea{
+            text-transform: capitalize;
+        }
+        textarea{
+            width: 330px;
+            height: 80px;
+            vertical-align: top;
+        }
+        .submit{
+           
+            width: 30%;
+            height: 40px;
+            background: rgb(173, 232, 236);
+            border-radius: 10%;
+
+        }
+        .submit:hover{
+            background-color: rgb(123, 240, 133);
+        }
+    </style>
+    <div>
+        <form>
+<div class="container">
+
+<div class="container01">
+    <h1><center>Add Address</center></h1>
+
+      
+      <div >
+        <span class="row" > Client Name</span>
+        <input type="text" name="ClientCode" value="abcd xyz" class="input-box" disabled >
+     </div>
+
+     <div >
+        <span class="row"> Client Code</span>
+        <input type="text" name="ClientCode" value="cl12345" class="input-box" disabled >
+      </div>
+
+       <div >
+        <span class="row" > Address</span>
+        <textarea class="addr"></textarea>
+      </div>
+
+     <div >
+         <span class="row">City</span>
+         <input type="text" name="City" class="input-box" required>
+     </div>
+   
+      <div >
+          <span class="row">State</span>
+          <input type="text" name="State" class="input-box" required>
+     </div>
+  
+     <div >
+         <span class="row">Zip code</span>
+         <input type="number" name="Zipcode"  class="input-box" required>
+     </div>
+     <div >
+        <span class="row">Remarks</span>
+        <input type="text" name="Remarks"  class="input-box" required>
+    </div>
+
+       <div  ><center>
+           <input type="submit" name="submit" value="SUBMIT" class="submit" >
+        </center>
+       </div> 
+    </div>
+</div>
+</form>
+</div>
+
+</body>
+</html>
